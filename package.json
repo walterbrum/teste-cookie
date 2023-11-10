@@ -1,0 +1,23 @@
+{
+  "name": "teste_cookie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch --inspect redis.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ijs/tough-cookie-redis-store": "^1.1.1",
+    "axios": "^1.6.1",
+    "axios-cookiejar-support": "^4.0.7",
+    "http-cookie-agent": "^5.0.4",
+    "redis": "^4.6.10",
+    "tough-cookie": "^4.1.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.1.0"
+  }
+}
