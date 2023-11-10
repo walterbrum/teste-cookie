@@ -9,11 +9,11 @@ async function teste() {
   try {
     const redisClient: RedisClientType = createClient({
         socket: {
-            host:'master.redis-dev-rb.jel1ly.sae1.cache.amazonaws.com',
+            host:'O HOST',
             port: 6379,
             tls: true
         },
-        password: 'Mkd3nE2XCGICPDT5',
+        password: 'SEU PASSWORD',
     })
 
     await redisClient.connect()
